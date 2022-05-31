@@ -1,0 +1,106 @@
+.footer {
+	flex-shrink: 0;
+	background-color: $evening-sea;
+	color: $white;
+	padding: 48px 18px;
+
+	@include breakpoint(sm) {
+		padding: 48px 0;
+	}
+
+	@include breakpoint(xl) {
+		padding: 96px 0;
+	}
+
+	a {
+		color: $white;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+
+	&-logo {
+		margin-bottom: 40px;
+
+		@include breakpoint(md) {
+			margin-bottom: 52px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		@include breakpoint(xl) {
+			margin-bottom: 0;
+			display: block;
+		}
+		&__image{
+			img{
+				width: 227px;
+			}
+		}
+	}
+
+	&-social {
+		margin-top: 35px;
+		margin-bottom: 0;
+		display: flex;
+		margin-left: -$container-padding-x;
+		margin-right: -$container-padding-x;
+
+		@include breakpoint(md) {
+			margin-top: 0;
+		}
+
+		@include breakpoint(xl) {
+			margin-top: 40px;
+		}
+
+		&__item {
+			margin-left: 16px;
+			margin-right: 16px;
+			@include breakpoint(xl) {
+				margin-left: 12px;
+				margin-right: 12px;
+			}
+		}
+	}
+
+	&-nav-list {
+		margin-bottom: 40px;
+
+		@include breakpoint(md) {
+			margin-bottom: 40px;
+		}
+
+		&__item {
+			margin-bottom: 16px;
+			font-weight: 600;
+
+			@include breakpoint(md) {
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	&__title {
+		margin-bottom: 15px;
+		color: #E7E7E7;
+	}
+
+	&__info {
+		margin-bottom: 40px;
+
+		@include breakpoint(md) {
+			margin-bottom: 32px;
+		}
+
+		@include breakpoint(xl) {
+			margin-bottom: 24px;
+		}
+	}
+
+	&__copy {
+		margin-bottom: 0;
+	}
+}

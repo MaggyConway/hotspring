@@ -1,0 +1,51 @@
+.elementor-widget-cards {
+  .swiper-pagination {
+    @include breakpoint(md) {
+      display: none !important;
+    }
+  }
+
+  .card {
+    position: relative;
+  }
+
+  .swiper_mobile {
+    .swiper-container {
+      padding-right: 0;
+      padding-left: 0;
+      padding-bottom: 40px;
+      // box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.1);
+
+      @include breakpoint(md) {
+        box-shadow: none;
+      }
+
+      .swiper-slide {
+        margin-bottom: 0 !important;
+      }
+    }
+
+    // .card {
+    //   box-shadow: none;
+
+    //   @include breakpoint(md) {
+    //     box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.1);
+    //   }
+    // }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets {
+      bottom: 0;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      @media screen and (max-width: 576px) {
+        top: calc(50% - 53px);
+      }
+    }
+  }
+}
+
+.card-label .elementor-icon-wrapper {
+  position: absolute;
+}

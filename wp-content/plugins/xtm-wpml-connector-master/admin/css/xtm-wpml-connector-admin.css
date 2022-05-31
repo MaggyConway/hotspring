@@ -1,0 +1,47 @@
+.xtm-wpml-connector-block label span {
+    display: inline-block;
+    width: 200px;
+}
+
+.xtm-wpml-connector-block label {
+    padding: 3px 3px;
+    margin: 2px 2px;
+    display: inline-block;
+}
+
+.xtm-wpml-connector-block label span.xtm-radio {
+    display: inline-block;
+    width: 500px
+}
+
+.xtm-wpml-connector-block {
+    font-size: 15px;
+}
+
+.xtm-wpml-connector-block select, .xtm-wpml-connector-block input[type="text"],
+.xtm-wpml-connector-block input[type="password"] {
+    width: 400px;
+}
+
+.xtm-wpml-connector-jobs-container {
+    background: #ECECEC;
+    border: 1px solid #CCC;
+    padding: 10px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.xtm-wpml-connector-jobs-container.second {
+    height: 34px;
+}
+
+.spinner.is-active {
+    float: none;
+    width: auto;
+    height: auto;
+    padding: 10px 0 10px 50px;
+    background-position: 20px 0;
+}

@@ -1,0 +1,44 @@
+name: hotspringrddev
+recipe: wordpress
+config:
+  webroot: .
+  via: apache
+  php: '7.3'
+proxy:
+  mailhog:
+  - mail.hotspringrddev.lndo.site
+  adminer:
+  - adminer.hotspringrddev.lndo.site:8080
+services:
+  node:
+    type: node:14
+  mailhog:
+    type: mailhog
+    hogfrom:
+    - appserver
+  adminer:
+    type: compose
+    services:
+      image: adminer
+      environment:
+        - ADMINER_DEFAULT_SERVER=database
+      command: docker-php-entrypoint php -S [::]:8080 -t /var/www/html
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  yarn:
+    service: node
+  theme_init:
+    cmd: 
+      node: yarn
+    dir: /app/wp-content/themes/hotspring
+  theme_watch:
+    cmd: 
+      node: yarn watch
+    dir: /app/wp-content/themes/hotspring
+  theme_build:
+    cmd:
+      node: yarn build
+    dir: /app/wp-content/themes/hotspring

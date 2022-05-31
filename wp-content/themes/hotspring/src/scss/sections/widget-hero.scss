@@ -1,0 +1,121 @@
+.hero {
+  &__title {
+    margin-bottom: 16px;
+    padding: 0;
+    text-align: left;
+
+    @include breakpoint(md) {
+      margin-bottom: 24px;
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    @include breakpoint(xl) {
+      text-align: left;
+    }
+
+    // @media (min-width: 1140px) and (max-width: 1199px) {
+    //     margin-top: 139px !important;
+    // }
+
+    @include breakpoint(xl) {
+      padding: 0;
+    }
+
+    span{
+      @include breakpoint(xs) {
+        display: block;
+      }
+      @include breakpoint(md) {
+        display: initial;
+      }
+      @include breakpoint(xl) {
+        display: block;
+      }
+    }
+  }
+
+  &__link {
+    margin-top: 24px;
+    @include breakpoint(xl) {
+      margin-top: 32px;
+    }
+  }
+
+  &__description {
+    padding: 0;
+    text-align: left;
+    line-height: 22px;
+
+    @include breakpoint(md) {
+      padding: 0 24px;
+      text-align: center;
+    }
+
+    @include breakpoint(xl) {
+      text-align: left;
+      padding: 0;
+    }
+  }
+
+  // span..
+  //   @include breakpoint(xs) {
+  //     text-align: left;
+  //   }
+  //   @include breakpoint(md) {
+  //     text-align: center;
+  //   }
+
+  //   > a {
+  //     font-weight: 600;
+  //   }
+  // }
+
+  &__btn {
+    margin-top: 24px;
+    @include breakpoint(xs) {
+      text-align: left;
+    }
+    @include breakpoint(md) {
+      margin-top: 30px;
+      text-align: center;
+    }
+    @include breakpoint(xl) {
+      margin-top: 32px;
+      text-align: left;
+    }
+  }
+
+  &__reviews {
+    margin-top: 8px;
+    padding: 0 12px;
+    font-weight: 600;
+
+    @include breakpoint(md) {
+      margin-top: 16px;
+      padding: 0 24px;
+    }
+    @include breakpoint(xl) {
+      padding: 0;
+    }
+  }
+  .elementor-icon {
+    position: absolute;
+  }
+}
+
+.elementor-widget-hero-default-with-reviews{
+  .hero {
+    &__title, &__description, &__reviews{
+      @include breakpoint(xs) {
+        text-align: left;
+      }
+      @include breakpoint(md) {
+        text-align: center;
+      }
+      @include breakpoint(xl) {
+        text-align: left;
+      }
+    }
+  }
+}

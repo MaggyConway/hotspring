@@ -1,0 +1,95 @@
+.btn {
+  color: $white;
+  padding-bottom: 10px;
+
+  @include breakpoint(xl) {
+    line-height: 1.223;
+  }
+
+  &:hover {
+    color: $white;
+  }
+
+  .btn-check:focus + &,
+  &:focus {
+    outline: 0;
+    @include box-shadow(none);
+  }
+
+  .btn-check:checked + &,
+  .btn-check:active + &,
+  &:active,
+  &.active {
+    @include box-shadow(none);
+
+    &:focus {
+      @include box-shadow(none);
+    }
+  }
+
+  &:visited {
+    color: $white;
+  }
+
+  &:disabled,
+  &.disabled,
+  fieldset:disabled & {
+    pointer-events: none;
+    opacity: $btn-disabled-opacity;
+    @include box-shadow(none);
+  }
+}
+
+.btn-primary {
+  @include button-variant($primary, $primary, $white, $secondary, $secondary, $white, $secondary, $secondary, $white, $gray-231, $gray-231, $gray-169);
+
+  .btn-check:focus + &,
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .btn-check:checked + &,
+  .btn-check:active + &,
+  &:active,
+  &.active {
+    box-shadow: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  &:disabled,
+  &.disabled,
+  fieldset:disabled & {
+    box-shadow: none;
+  }
+}
+
+.btn-secondary {
+  @include button-variant($white, $primary, $primary, $white, $secondary, $secondary, $white, $secondary, $secondary, $white, $gray-169, $gray-169);
+
+  .btn-check:focus + &,
+  &:focus {
+    outline: 0;
+    box-shadow: none;
+  }
+
+  .btn-check:checked + &,
+  .btn-check:active + &,
+  &:active,
+  &.active {
+    box-shadow: none;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  &:disabled,
+  &.disabled,
+  fieldset:disabled & {
+    box-shadow: none;
+  }
+}

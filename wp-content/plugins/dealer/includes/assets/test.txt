@@ -1,0 +1,374 @@
+Array
+(
+    [0] => WP_Post Object
+        (
+            [ID] => 6726
+            [post_author] => 7
+            [post_date] => 2017-09-18 05:00:02
+            [post_date_gmt] => 2017-09-18 05:00:02
+            [post_content] =>
+            [post_title] => International Hot Tub Co. Inc.
+            [post_excerpt] =>
+            [post_status] => publish
+            [comment_status] => closed
+            [ping_status] => closed
+            [post_password] =>
+            [post_name] => international-hot-tub-co-inc
+            [to_ping] =>
+            [pinged] =>
+            [post_modified] => 2017-09-18 05:57:16
+            [post_modified_gmt] => 2017-09-18 05:57:16
+            [post_content_filtered] =>
+            [post_parent] => 0
+            [guid] => https://calderaspas.wpengine.com/dealers/international-hot-tub-co-inc/
+            [menu_order] => 0
+            [post_type] => edls
+            [post_mime_type] =>
+            [comment_count] => 0
+            [filter] => raw
+        )
+
+)
+Array
+(
+    [dealership_id] => Array
+        (
+            [0] => 00034
+        )
+
+    [dealership_billto] => Array
+        (
+            [0] => 00232
+        )
+
+    [dealership_name] => Array
+        (
+            [0] => International Hot Tub Co. Inc.
+        )
+
+    [dealership_address_1] => Array
+        (
+            [0] => 1035 Zuni St.
+        )
+
+    [dealership_address_2] => Array
+        (
+            [0] =>
+        )
+
+    [dealership_city] => Array
+        (
+            [0] => Denver
+        )
+
+    [dealership_state] => Array
+        (
+            [0] => Colorado
+        )
+
+    [dealership_state_code] => Array
+        (
+            [0] => CO
+        )
+
+    [dealership_country] => Array
+        (
+            [0] => USA
+        )
+
+    [dealership_country_code] => Array
+        (
+            [0] => US
+        )
+
+    [dealership_zip] => Array
+        (
+            [0] => 80204
+        )
+
+    [dealership_territory_code] => Array
+        (
+            [0] => 05
+        )
+
+    [dealership_rsm_id] => Array
+        (
+            [0] => RSM05
+        )
+
+    [dealership_phone] => Array
+        (
+            [0] => 303-755-4772
+        )
+
+    [dealership_record_type] => Array
+        (
+            [0] => SATELLITE
+        )
+
+    [dealership_coordinates] => Array
+        (
+            [0] => a:3:{s:7:"address";s:35:"1035 Zuni St, Denver, CO 80204, USA";s:3:"lat";s:10:"39.7330554";s:3:"lng";s:12:"-105.0165817";}
+        )
+
+    [inline_featured_image] => Array
+        (
+            [0] => 0
+        )
+
+    [about_description] => Array
+        (
+            [0] => IHT is your Denver metro & Boulder dealer since 1978. We are proud to offer you the world's number one selling brand in hot tubs. Let us show why Caldera spas deliver the ultimate lifetime ownership experience. Enjoy a free test soak, schedule a backyard consultation, or browse one of 4 showrooms. Our professionally trained experts will give a tour, answer questions, & help you find the right hot tub for your needs & lifestyle. We also carry Fireplaces, Stoves and Inserts, Saunas, & Grills.
+        )
+
+    [dealer_email] => Array
+        (
+            [0] => sales@ihtspas.com
+        )
+
+    [dealer_phone] => Array
+        (
+            [0] => 303-755-4772
+        )
+
+    [dealer_website] => Array
+        (
+            [0] => http://ihtspas.com/
+        )
+
+    [store_hour_notes] => Array
+        (
+            [0] =>
+        )
+
+    [_edit_lock] => Array
+        (
+            [0] => 1505789550:7
+        )
+
+    [_edit_last] => Array
+        (
+            [0] => 7
+        )
+
+    [edl_image] => Array
+        (
+            [0] =>
+        )
+
+    [_edl_image] => Array
+        (
+            [0] => field_58b0a25f331d9
+        )
+
+    [edl_dealer_promotion] => Array
+        (
+            [0] =>
+        )
+
+    [_edl_dealer_promotion] => Array
+        (
+            [0] => field_58b0a3ec238de
+        )
+
+    [_dealer_phone] => Array
+        (
+            [0] => field_59bf4411c063f
+        )
+
+    [_dealer_email] => Array
+        (
+            [0] => field_58addad2a3805
+        )
+
+    [_dealer_website] => Array
+        (
+            [0] => field_599620635cd08
+        )
+
+    [mon_fri] => Array
+        (
+            [0] =>
+        )
+
+    [_mon_fri] => Array
+        (
+            [0] => field_58ade06ea3807
+        )
+
+    [hours_saturday] => Array
+        (
+            [0] =>
+        )
+
+    [_hours_saturday] => Array
+        (
+            [0] => field_58ade07da3808
+        )
+
+    [hours_sunday] => Array
+        (
+            [0] =>
+        )
+
+    [_hours_sunday] => Array
+        (
+            [0] => field_58ade086a3809
+        )
+
+    [_store_hour_notes] => Array
+        (
+            [0] => field_59bf40b960780
+        )
+
+    [offer_title] => Array
+        (
+            [0] =>
+        )
+
+    [_offer_title] => Array
+        (
+            [0] => field_58ade0c8a380b
+        )
+
+    [offer_description] => Array
+        (
+            [0] =>
+        )
+
+    [_offer_description] => Array
+        (
+            [0] => field_58ade0d6a380c
+        )
+
+    [_about_description] => Array
+        (
+            [0] => field_58ade113a380e
+        )
+
+    [about_read_more] => Array
+        (
+            [0] =>
+        )
+
+    [_about_read_more] => Array
+        (
+            [0] => field_58ade130a380f
+        )
+
+    [shopping_tools_0_tool] => Array
+        (
+            [0] => кеуке
+        )
+
+    [_shopping_tools_0_tool] => Array
+        (
+            [0] => field_58ade179a3812
+        )
+
+    [shopping_tools] => Array
+        (
+            [0] => 1
+        )
+
+    [_shopping_tools] => Array
+        (
+            [0] => field_58ade169a3811
+        )
+
+    [dealer_services] => Array
+        (
+            [0] => a:2:{i:0;s:21:"Backyard Consultation";i:1;s:10:"Test Soaks";}
+        )
+
+    [_dealer_services] => Array
+        (
+            [0] => field_58ae0bd27bb3c
+        )
+
+    [_dealership_id] => Array
+        (
+            [0] => dealership_id
+        )
+
+    [_dealership_billto] => Array
+        (
+            [0] => dealership_billto
+        )
+
+    [_dealership_name] => Array
+        (
+            [0] => dealership_name
+        )
+
+    [_dealership_address_1] => Array
+        (
+            [0] => dealership_address_1
+        )
+
+    [_dealership_address_2] => Array
+        (
+            [0] => dealership_address_2
+        )
+
+    [_dealership_city] => Array
+        (
+            [0] => dealership_city
+        )
+
+    [_dealership_state] => Array
+        (
+            [0] => dealership_state
+        )
+
+    [_dealership_state_code] => Array
+        (
+            [0] => dealership_state_code
+        )
+
+    [_dealership_country] => Array
+        (
+            [0] => dealership_country
+        )
+
+    [_dealership_country_code] => Array
+        (
+            [0] => dealership_country_code
+        )
+
+    [_dealership_zip] => Array
+        (
+            [0] => dealership_zip
+        )
+
+    [_dealership_territory_code] => Array
+        (
+            [0] => dealership_territory_code
+        )
+
+    [_dealership_rsm_id] => Array
+        (
+            [0] => dealership_rsm_id
+        )
+
+    [phone] => Array
+        (
+            [0] =>
+        )
+
+    [_phone] => Array
+        (
+            [0] => dealership_phone
+        )
+
+    [_dealership_coordinates] => Array
+        (
+            [0] => dealership_coordinates
+        )
+
+    [_yoast_wpseo_content_score] => Array
+        (
+            [0] => 60
+        )
+
+)

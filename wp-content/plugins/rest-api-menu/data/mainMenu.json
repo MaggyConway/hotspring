@@ -1,0 +1,374 @@
+{
+    "mainMenuItems":{
+        "advantages":{
+            "link": "/advantages",
+            "title": "Advantages",
+            "links": {
+                "Advantages": "/advantages",
+                "Legendary Massage": "/advantages/legendary-massage",
+                "Easy Water Care": "/advantages/easy-water-care",
+                "Leading Energy Efficiency": "/advantages/leading-energy-efficiency",
+                "Reviews": "/advantages/hot-tub-reviews"
+            }
+        },
+        "shop":{
+            "link": "/shop",
+            "title": "Shop",
+            "links": {
+                "Shop All Spas": "/shop",
+                "highlife-collection": {
+                    "link": "",
+                    "title": "Highlife® Collection",
+                    "collection_id": 1393,
+                    "links": {
+                        "grandee": {
+                            "link": "",
+                            "title": "Grandee®",
+                            "links": {},
+                            "product_id": 1401
+                        },
+                        "envoy": {
+                            "link": "",
+                            "title": "Envoy®",
+                            "links": {},
+                            "product_id": 1402
+                        },
+                        "aria": {
+                            "link": "",
+                            "title": "Aria®",
+                            "links": {},
+                            "product_id": 1403
+                        },
+                        "vanguard": {
+                            "link": "",
+                            "title": "Vanguard®",
+                            "links": {},
+                            "product_id": 1404
+                        },
+                        "sovereign": {
+                            "link": "",
+                            "title": "Sovereign®",
+                            "links": {},
+                            "product_id": 1405
+                        },
+                        "triumph": {
+                            "link": "",
+                            "title": "Triumph™",
+                            "links": {},
+                            "product_id": 1406
+                        },
+                        "prodigy": {
+                            "link": "",
+                            "title": "Prodigy®",
+                            "links": {},
+                            "product_id": 1407
+                        },
+                        "jetsetter-lx": {
+                            "link": "",
+                            "title": "Jetsetter LX®",
+                            "links": {},
+                            "product_id": 1408
+                        },
+                        "jetsetter": {
+                            "link": "",
+                            "title": "Jetsetter®",
+                            "links": {},
+                            "product_id": 1409
+                        },
+                        "View All": {
+                            "link": "/shop-hot-tub-models/highlife",
+                            "class": "view-all",
+                            "links": {}
+                        }
+                    }
+                },
+                "limelightt-collection": {
+                    "link": "",
+                    "title": "Limelight® Collection",
+                    "collection_id": 1394,
+                    "links": {
+                        "prism": {
+                            "link": "",
+                            "title": "Prism™",
+                            "links": {},
+                            "product_id": 1410
+                        },
+                        "pulse": {
+                            "link": "",
+                            "title": "Pulse®",
+                            "links": {},
+                            "product_id": 1411
+                        },
+                        "flash": {
+                            "link": "",
+                            "title": "Flash™",
+                            "links": {},
+                            "product_id": 1412
+                        },
+                        "flair": {
+                            "link": "",
+                            "title": "Flair®",
+                            "links": {},
+                            "product_id": 1414
+                        },
+                        "beam": {
+                            "link": "",
+                            "title": "Beam™",
+                            "links": {},
+                            "product_id": 1415
+                        },
+                        "View All": {
+                            "link": "/shop-hot-tub-models/limelight",
+                            "class": "view-all",
+                            "links": {}
+                        }
+                    }
+                },
+                "hot-spot-collection": {
+                    "link": "",
+                    "title": "Hot Spot® Collection",
+                    "collection_id": 1395,
+                    "links": {
+                        "rhythm": {
+                            "link": "",
+                            "title": "Rhythm",
+                            "links": {},
+                            "product_id": 1416
+                        },
+                        "relay": {
+                            "link": "",
+                            "title": "Relay",
+                            "links": {},
+                            "product_id": 1417
+                        },
+                        "stride": {
+                            "link": "",
+                            "title": "Stride",
+                            "links": {},
+                            "product_id": 1418
+                        },
+                        "pace": {
+                            "link": "",
+                            "title": "Pace",
+                            "links": {},
+                            "product_id": 1419
+                        },
+                        "sx": {
+                            "link": "",
+                            "title": "SX",
+                            "links": {},
+                            "product_id": 1420
+                        },
+                        "tx": {
+                            "link": "",
+                            "title": "TX",
+                            "links": {},
+                            "product_id": 1421
+                        },
+                        "View All": {
+                            "link": "/shop-hot-tub-models/hot-spot",
+                            "class": "view-all",
+                            "links": {}
+                        }
+                    }
+                },
+                "tools": {
+                    "link": "/shop/tools",
+                    "title": "Shopping Tools",
+                    "links": {
+                        "virtual-view": {
+                            "link": "/shop/tools/virtual-view-ar-app",
+                            "title": "Virtual View™ AR App"
+                        },
+                        "compare-hot-tubs": {
+                            "link": "/shop/tools/compare-hot-tubs",
+                            "title": "Compare Hot Tubs"
+                        },
+                        "View All Tools": {
+                            "link": "/shop/tools",
+                            "title": "View All Tools"
+                        }
+                    }
+                },
+                "water-care": {
+                    "link": "/shop/water-care",
+                    "title": "Water Care",
+                    "links": {
+                        "freshwater-salt-system": {
+                            "link": "/shop/water-care/freshwater-salt-system",
+                            "title": "FreshWater® Salt System"
+                        },
+                        "frog-ease-chlorine-system": {
+                            "link": "/shop/water-care/frog-ease-chlorine-system",
+                            "title": "FROG® @Ease® Sanitizing System"
+                        },
+                        "freshwater-ozone-system": {
+                            "link": "/shop/water-care/freshwater-ozone-system",
+                            "title": "FreshWater Ozone System"
+                        },
+                        "products": {
+                            "link": "/shop/water-care/products",
+                            "title": "Spa Care Products"
+                        },
+                        "View All Water Care": {
+                            "link": "/shop/water-care",
+                            "title": "View All Water Care"
+                        }
+                    }
+                },
+                "accessories": {
+                    "link": "/shop/accessories",
+                    "title": "Accessories",
+                    "links": {
+                        "replacement-covers": {
+                            "link": "/shop/accessories/replacement-covers",
+                            "title": "Replacement Covers"
+                        },
+                        "cover-lifters": {
+                            "link": "/shop/accessories/cover-lifters",
+                            "title": "Cover Lifters"
+                        },
+                        "spa-side-steps": {
+                            "link": "/shop/accessories/spa-side-steps",
+                            "title": "Spa Side Steps"
+                        },
+                        "spa-side-enhancements": {
+                            "link": "/shop/accessories/spa-side-enhancements",
+                            "title": "Spa Side Enhancements"
+                        },
+                        "entertainment": {
+                            "link": "/shop/accessories/entertainment",
+                            "title": "Entertainment"
+                        },
+                        "coolzone": {
+                            "link": "/shop/accessories/coolzone",
+                            "title": "Coolzone™"
+                        },
+                        "View All Accessories": {
+                            "link": "",
+                            "title": "View All Accessories"
+                        }
+                    }
+                }
+            }
+        },
+        "learning-center":{
+            "link": "/learning-center",
+            "title": "Learning Center",
+            "links": {
+                "Learning Center": "/learning-center",
+                "hot-tub-benefits": {
+                    "link": "/learning-center/hot-tub-benefits",
+                    "title": "Hot Tub Benefits",
+                    "links": {
+                        "hydrotherapy": {
+                            "link": "/learning-center/hot-tub-benefits/hydrotherapy",
+                            "title": "Hydrotherapy Benefits"
+                        },
+                        "massage": {
+                            "link": "/learning-center/hot-tub-benefits/massage",
+                            "title": "Massage Benefits"
+                        },
+                        "arthritis": {
+                            "link": "/learning-center/hot-tub-benefits/arthritis",
+                            "title": "Arthritis Benefits"
+                        },
+                        "hypertension": {
+                            "link": "/learning-center/hot-tub-benefits/hypertension",
+                            "title": "Hypertension Benefits"
+                        },
+                        "sleep": {
+                            "link": "/learning-center/hot-tub-benefits/sleep",
+                            "title": "Sleep Benefits"
+                        },
+                        "View All Hot Tub Benefits": {
+                            "link": "/learning-center/hot-tub-benefits",
+                            "class": "view-all",
+                            "links": {}
+                        }
+                    }
+                },
+                "buying-a-hot-tub": {
+                    "link": "/learning-center/buying-a-hot-tub",
+                    "title": "Buying a Hot Tub",
+                    "links": {
+                        "get-buyers-guide": {
+                            "link": "/get-buyers-guide",
+                            "title": "Buyer’s Guide"
+                        },
+                        "the-best-salt-water-system-for-home-spas": {
+                            "link": "/learning-center/the-best-salt-water-system-for-home-spas",
+                            "title": "Saltwater System"
+                        },
+                        "photo-gallery": {
+                            "link": "/learning-center/photo-gallery",
+                            "title": "Photo Gallery"
+                        },
+                        "how-much-does-a-hot-tub-cost": {
+                            "link": "/how-much-does-a-hot-tub-cost",
+                            "title": "Pricing Guide"
+                        },
+                        "financing": {
+                            "link": "/financing",
+                            "title": "Financing"
+                        },
+                        "hot-tubs-sizes-and-renderings": {
+                            "link": "/learning-center/hot-tubs-sizes-and-renderings",
+                            "title": "Hot Tub Sizes & Renderings"
+                        },
+                        "pre-delivery-instructions": {
+                            "link": "/learning-center/pre-delivery-instructions",
+                            "title": "Pre-Delivery Instructions"
+                        },
+                        "energy-efficient-hot-tubs": {
+                            "link": "/learning-center/energy-efficient-hot-tubs",
+                            "title": "Energy Efficiency"
+                        },
+                        "Buying a Hot Tub Overview": {
+                            "link": "/learning-center/buying-a-hot-tub",
+                            "class": "view-all",
+                            "links": {}
+                        }
+                    }
+                },
+                "Maintaining a Hot Tub": "/learning-center/maintaining-a-hot-tub",
+                "Hot Tub Water Care": "/learning-center/water-care",
+                "FAQs": "/learning-center/faq"
+            }
+        },
+        "blog":{
+            "link": "/blog",
+            "title": "Blog",
+            "links": {
+            }
+        },
+        "owners":{
+            "link": "/owners",
+            "title": "Owners",
+            "links": {
+                "Owners Overview": "/owners",
+                "How-To Videos": "/owners/how-to-videos",
+                "Maintenance & Tips": "/owners/maintenance-and-tips",
+                "Water Care & Troubleshooting": "/owners/water-care-and-troubleshooting",
+                "Owners Manuals & Resources": "/owners/manuals-and-resources",
+                "Warranty": "/owners/warranty",
+                "Rate Your Tub": "/owners/rate-your-spa",
+                "Trade-In Value": "/owners/trade-in-value"
+            }
+        }
+    },
+    "aditionalItems":{
+        "Find a Dealer": "#",
+        "Get Quote": "#",
+        "language":{
+            "link": "#",
+            "title": "Language",
+            "links": {
+                "English (EN)": "#",
+                "Français (FR)": "#",
+                "Español (ES)": "#"
+            }
+
+        }
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "mainMenuItems":{
+        "advantages":{
+            "link": "#",
+            "title": "Advantages",
+            "links": {
+                "Advantages": "#",
+                "Better Massage": "#",
+                "Better Water": "#",
+                "Better Efficiency": "#",
+                "Hot Tub Reviews": "#"
+            }
+        },
+        "shop":{
+            "link": "#",
+            "title": "Shop",
+            "links": {
+                "Shop All Spas": "#",
+                "Highlife® Collection": "#",
+                "limelight-collection": {
+                    "link": "#",
+                    "title": "Limelight® Collection",
+                    "collection_id": 783,
+                    "links": {
+                        "prism": {
+                            "link": "#",
+                            "title": "Prism",
+                            "links": {},
+                            "product_id": 783
+                        },
+                        "pulse": {
+                            "link": "#",
+                            "title": "Pulse",
+                            "links": {},
+                            "product_id": 783
+                        },
+                        "flash": {
+                            "link": "#",
+                            "title": "Flash",
+                            "links": {},
+                            "product_id": 783
+                        },
+                        "Flair": {
+                            "link": "#",
+                            "links": {},
+                            "product_id": 783
+                        },
+                        "Beam": {
+                            "link": "#",
+                            "links": {},
+                            "product_id": 783
+                        },
+                        "View All Limelight": {
+                            "link": "#",
+                            "links": {}
+                        }
+                    }
+                },
+                "Hot Spot® Collection": "#",
+                "Shopping Tools": "#"
+            }
+        },
+        "learning-center":{
+            "link": "#",
+            "title": "Learning center",
+            "links": {
+                "Advantages": "#",
+                "Better Massage": "#",
+                "Better Water": "#",
+                "Better Efficiency": "#",
+                "Hot Tub Reviews": "#"
+            }
+        },
+        "blog":{
+            "link": "#",
+            "title": "Blog",
+            "links": {
+                "Advantages": "#",
+                "Better Massage": "#",
+                "Better Water": "#",
+                "Better Efficiency": "#",
+                "Hot Tub Reviews": "#"
+            }
+        },
+        "owners":{
+            "link": "#",
+            "title": "Owners",
+            "links": {
+                "Advantages": "#",
+                "Better Massage": "#",
+                "Better Water": "#",
+                "Better Efficiency": "#",
+                "Hot Tub Reviews": "#"
+            }
+        }
+    },
+    "aditionalItems":{
+        "Find a Dealer": "#",
+        "Get Quote": "#",
+        "Language": ["English", "Spanish"]
+    }
+}

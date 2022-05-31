@@ -1,0 +1,64 @@
+.card.model-card {
+  box-shadow: none;
+  // border: 1px dashed silver !important;
+
+  .card-body {
+    font-size: 15px;
+    padding: 8px 16px 24px;
+    margin-top: -36px;
+
+    .card-title, .card-series, .card-rating, .card-capacity-cost { margin-bottom: 2px; }
+
+    .card-title {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      // font-size: 18px;
+      // @include breakpoint(md) {
+      //   font-size: 22px;
+      // }
+      a:hover{
+        color: #424242;
+      }
+
+    }
+
+    .card-series {
+      font-weight: 600;
+    }
+
+    .card-rating {
+      .bv-stars--link {
+        color: var(--bs-primary);
+        margin-left: 3px;
+        font-weight: 600;
+      }
+    }
+
+    .delimeter {
+      margin: 0 8px;
+    }
+  }
+
+  img {
+    opacity: 1;
+    transition:visibility 333ms linear,opacity 333ms linear;
+    // display: block;
+  }
+
+  img.hover {
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -295px;
+  }
+
+  > a:hover {
+    img {
+      visibility: hidden;
+      opacity: 0;
+    }
+    img.hover {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+}

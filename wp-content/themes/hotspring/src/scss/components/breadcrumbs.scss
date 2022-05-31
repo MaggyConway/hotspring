@@ -1,0 +1,50 @@
+.breadcrumbs-wrapper {
+    width: 100%;
+    background-color: $breadcrumb-bg-wrapper;
+    position: relative;
+    z-index: 100;
+}
+
+.breadcrumb {
+    width: 100%;
+    align-items: center;
+    font-size: $breadcrumb-font-size;
+    font-weight: $breadcrumb-font-weight;
+    line-height: $breadcrumb-line-height;
+}
+
+.breadcrumb-item {
+    margin-right: $breadcrumb-margin-right;
+    + .breadcrumb-item {
+        position: relative;
+        &::before {
+            position: absolute;
+            content: '';
+            background: url(../../images/chevron-right.svg) no-repeat center center;
+            background-size: contain;
+            width: 6px;
+            height: 10px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%) rotate(-180deg);
+            padding: 0;
+            float: none;
+
+            @include breakpoint(md) {
+                transform: translateY(-50%);
+            }
+        }
+    }
+
+    &.active {
+        font-weight: $breadcrumb-font-weight-active;
+        margin-right: 0;
+    }
+
+    &:not(:nth-last-child(2)) {
+        display: none;
+        @include breakpoint(md) {
+            display: list-item;
+        }
+    }
+}

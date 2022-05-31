@@ -1,0 +1,42 @@
+body.admin-bar .dialog-type-lightbox {
+    position: fixed !important;
+}
+.color-selector-picker .rounded-square {
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 1px;
+}
+
+.color-selector-picker .selected .rounded-square {
+    border: 2px solid #007681;
+}
+.color-selector-column h3 {
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+@media (min-width: 1140px) and (max-width: 1199px) {
+    .hero__title {
+        margin-top: 110px;
+    }
+}
+
+@media (max-width: 991px) {
+    .color-selector-column {
+        width: 225px;
+    }
+    .color-selector-picker {
+        justify-content: center;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    .color-selector-column {
+        width: 233px;
+        padding: 0;
+    }
+
+}

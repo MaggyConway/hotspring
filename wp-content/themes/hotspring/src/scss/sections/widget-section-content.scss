@@ -1,0 +1,22 @@
+.elementor-widget-section_content {
+  .section-content {
+    &__title {
+      margin-top: 24px;
+      margin-bottom: 16px;
+
+      @include breakpoint(md) {
+        margin-top: 32px;
+        margin-bottom: 24px;
+      }
+    }
+
+    &__link {
+      font-weight: 600;
+    }
+
+    &__description {
+      line-height: 22px;
+      margin-bottom: 16px;
+    }
+  }
+}

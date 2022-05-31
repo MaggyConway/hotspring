@@ -1,0 +1,9 @@
+{
+    "name": "adci/wpdevel",
+    "description": "Added devel function to wordpress\u001b[D\u001b[D",
+    "require": {
+         "kktsvetkov/krumo": "^0.4.0",
+        "kint-php/kint": "^2.2"
+    },
+    "license": "BSD"
+}

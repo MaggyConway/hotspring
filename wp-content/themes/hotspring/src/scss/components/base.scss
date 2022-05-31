@@ -1,0 +1,436 @@
+// @import 'bootstrap';
+/**
+* General
+*/
+
+html {
+	height: 100%;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	@include breakpoint(md) {
+		font-size: 18px;
+	}
+}
+
+ol,
+ul {
+	padding-left: 0;
+}
+
+svg {
+	transition: fill 0.33s ease-in-out, opacity 0.33s ease-in-out;
+}
+
+main.content {
+	flex: 1 0 auto;
+	position: relative;
+	z-index: 200;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+img {
+	vertical-align: middle;
+}
+
+ol, ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+sup {
+    top: -0.3em;
+
+	@include breakpoint(xl) {
+    	top: -0.5em;
+    	font-size: 0.6em;
+    }
+}
+
+h1 {
+	@extend h1;
+
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+
+	@include breakpoint(md) {
+		font-size: 2rem;
+		letter-spacing: 0.72px;
+	}
+
+	@include breakpoint(xl) {
+		font-size: 42px;
+		line-height: 56px;
+		letter-spacing: 0.84px;
+	}
+}
+
+h2 {
+	@extend h2;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+
+	@include breakpoint(md) {
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+	@include breakpoint(xl) {
+		letter-spacing: normal;
+		font-size: 30px;
+		line-height: 40px;
+	}
+}
+
+h3 {
+	@extend h3;
+
+	font-weight: 400;
+	line-height: 1.44;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 26px;
+
+	@include breakpoint(md) {
+		// font-size: 1.11rem;
+		font-size: 22px;
+		line-height: 28px;
+  		letter-spacing: 2px;
+	}
+
+	@include breakpoint(xl) {
+		// font-size: 22px;
+		// line-height: 28px;
+		letter-spacing: 2.2px;
+	}
+}
+
+h4 {
+	@extend h4;
+
+	font-weight: 600;
+	// line-height: 1.38;
+    font-size: 16px;
+    line-height: 22px;
+
+    @include breakpoint(md) {
+      font-size: 18px;
+      line-height: 26px;
+	  // 	line-height: 1.44;
+		//     letter-spacing: normal;
+    }
+}
+
+h5 {
+	@extend h5;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+
+	@include breakpoint(md) {
+		font-size: 16px;
+		line-height: 22px;
+	// 	line-height: 1.375;
+  	// 	letter-spacing: normal;
+	}
+}
+
+h6 {
+	@extend h6;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+
+	@include breakpoint(md) {
+		font-size: 14px;
+		line-height: 18px;
+		// line-height: 1.29;
+  		// letter-spacing: normal;
+	}
+}
+
+a {
+	color: $link-color;
+	transition: color 0.33s ease-in-out, opacity 0.33s ease-in-out;
+	text-decoration: none;
+	line-height: 22px;
+
+	@include breakpoint(md) {
+		line-height: 26px;
+	}
+
+	&:hover {
+		color: $link-hover-color;
+		text-decoration: $link-hover-decoration;
+	}
+
+	&:active {
+		color: $link-hover-color;
+	}
+
+	&:focus {
+		color: $link-color;
+	}
+
+	&:disabled {
+		color: $gray-169;
+	}
+}
+
+.swiper-pagination {
+	@include swiper_pagination;
+}
+.content#main{
+    font-weight: 300;
+}
+
+
+/**
+* WordPress customization
+*/
+
+/* If WP-Adminbar is visible */
+body.admin-bar {
+	.header {
+		top: 32px;
+	}
+
+	.edit-link a {
+		color: #fff !important;
+		font-weight: normal !important;
+		text-decoration: none !important;
+
+		&::before {
+			content: '\270E';
+			display: inline-block;
+			margin-right: 5px;
+		}
+	}
+}
+
+/* WordPress Embeds */
+
+.post-thumbnail,
+.wp-video,
+.embed-responsive {
+	margin: 5px 0;
+	width: 100% !important;
+}
+
+.post,
+.post-thumbnail {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+/* Sidebar */
+
+.widget-area {
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+}
+
+@media (max-width: breakpoint-max(sm)) {
+	#sidebar {
+		margin-top: 60px;
+	}
+}
+
+/* Author */
+
+.author-avatar {
+	.avatar {
+		width: 64px;
+		height: auto;
+	}
+}
+
+.author-info {
+	margin: 40px 0;
+
+	h2,
+	h3 {
+		margin-top: 0;
+	}
+}
+
+/* Posts */
+
+.sticky {
+	.card {
+		background-color: $gray-100;
+	}
+}
+
+.entry-meta {
+	font-size: small;
+	margin-top: ($grid-gutter-width * 0.5);
+}
+
+.single {
+	.entry-content,
+	.post-navigation,
+	#comments-title {
+		margin: $grid-gutter-width 0;
+	}
+}
+
+#comments {
+	margin-top: $grid-gutter-width;
+}
+
+.comment-meta {
+	height: 40px;
+}
+
+.comment-reply-title {
+	margin: $grid-gutter-width 0 ($grid-gutter-width * 0.5);
+}
+
+.commentlist {
+	list-style: none;
+	margin: 0 auto;
+	width: 68.9%;
+
+	> li.comment {
+		margin: 0 0 1.625em;
+		padding: 1.625em;
+		position: relative;
+	}
+
+	.children {
+		list-style: none;
+		margin-top: $grid-gutter-width;
+
+		> li.comment {
+			border-top: 1px solid $gray-300;
+			padding-top: $grid-gutter-width;
+			position: relative;
+		}
+	}
+
+	.avatar {
+		width: 64px;
+		height: 64px;
+		border-radius: 50%;
+		box-shadow: 0 1px 2px $gray-600;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: -102px;
+	}
+}
+
+/* WordPress Blocks */
+
+// Buttons
+
+.wp-block-button {
+	&.is-style-outline {
+		.wp-block-button__link {
+			@extend .btn;
+			@extend .btn-outline-primary;
+		}
+	}
+
+	&.btn-lg {
+		.wp-block-button__link {
+			@extend .btn-lg;
+		}
+	}
+	&.btn-sm {
+		.wp-block-button__link {
+			@extend .btn-sm;
+		}
+	}
+
+	.wp-block-button__link {
+		@extend .btn;
+		@extend .btn-primary;
+		text-decoration: none;
+	}
+}
+
+// Table
+.wp-block-table {
+	td,
+	th {
+		border: inherit;
+	}
+
+	table {
+		@extend .table;
+	}
+}
+
+// Image, Media and Text
+
+.wp-block-image,
+.wp-block-media-text__media {
+	img,
+	video {
+		height: auto;
+	}
+}
+
+.back-to-top {
+	display: none;
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	bottom: 50px;
+	right: 12px;
+	background-color: #eee;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 8px 8px 16px -16px #000, -8px -8px 16px -16px #000;
+	z-index: 999;
+
+	@include breakpoint(md) {
+		right: 32px;
+		width: 56px;
+		height: 56px;
+	}
+
+	@include breakpoint(xl) {
+		right: 40px;
+	}
+}
+
+.back-to-top::before {
+	content: '';
+	position: absolute;
+	width: 11px;
+	height: 18px;
+	background: url("../../images/swiper-btn-right.svg") no-repeat center center;
+	transform: translate(-50%,-50%) rotate(-90deg);
+	top: 50%;
+	left: 50%;
+
+	@include breakpoint(md) {
+		width: 17px;
+		height: 28px;
+	}
+}
+
+.back-to-top:hover::before {
+	background: url("../../images/back-to-top-hover.svg") no-repeat center center;
+}
+
+.back-to-top.active {
+	display: block;
+}
+.back-to-top.active:hover {
+	cursor: pointer;
+}

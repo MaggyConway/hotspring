@@ -1,0 +1,64 @@
+.prefooter{
+  background: $gray-100;
+  padding: 24px 0 40px;
+
+  &__row {
+    @include breakpoint(xl) {
+      justify-content: center;
+      
+      > div:nth-child(1) {
+        margin-right: 8px;
+      }
+      .col-xl-auto {
+        align-items: center;
+        display: flex;
+      }
+    }
+  }
+
+  &-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: -8px;
+    margin-right: -8px;
+
+    @include breakpoint(sm) {
+      flex-direction: row;
+    }
+
+    &__item {
+      margin-left: 8px;
+      margin-right: 8px;
+      margin-top: 16px;
+    }
+  }
+
+  &-link {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+    @include breakpoint(md) {
+      margin-top: 8px;
+    }
+
+    @include breakpoint(xl) {
+      margin-top: 0;
+    }
+
+    svg {
+      flex: 0 0 auto;
+      display: inline-block;
+      margin-right: 8px;
+    }
+
+    &:hover {
+      svg path {
+        fill: $secondary;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.elementor-widget-sections-reviews {
+  h2 {
+      margin-top: 0;
+      margin-bottom: 16px;
+
+      @include breakpoint(md) {
+        margin-bottom: 24px;
+      }
+
+      @include breakpoint(xl) {
+        text-align: left;
+        margin-top: 10px;
+      }
+  }
+
+  .btn.btn-primary {
+      margin-top: 24px;
+  }
+
+  .title-description {
+    line-height: 22px;
+  }
+
+  .review {
+    margin-top: 40px;
+
+    @include breakpoint(md) {
+      margin-top: 48px;
+    }
+
+    @include breakpoint(xl) {
+      margin-top: 0;
+    }
+
+    &__stars {
+      margin-bottom: 24px;
+      font-size: 28px;
+      color: #ffc107;
+    }
+
+    &__text {
+      font-weight: bold;
+      font-style: italic;
+      line-height: 22px;
+      margin-bottom: 16px;
+
+      @include breakpoint(md) {
+        line-height: 26px;
+      }
+    }
+
+    &__author {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.29;
+    }
+  }
+  .col-xl-4.col-sm-12{
+    margin-top: -5px;
+  }
+}

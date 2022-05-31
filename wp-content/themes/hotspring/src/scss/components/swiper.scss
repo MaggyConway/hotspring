@@ -1,0 +1,46 @@
+.swiper {
+  &-wrapper {
+    height: auto !important;
+  }
+
+  .swiper-slide-desc {
+    margin-top: -50px;
+    position: relative;
+  }
+
+  &.mySwiper {
+    position: relative;
+
+    &::before {
+      content: "";
+      z-index: 2;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      bottom: 0;
+      background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 2%,
+        rgba(255, 255, 255, 0) 15%,
+        rgba(255, 255, 255, 0) 85%,
+        rgba(255, 255, 255, 1) 98%
+      );
+      pointer-events: none;
+    }
+
+    .swiper-slide-active {
+      &::after {
+        content: "";
+        z-index: 3;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        left: 0;
+        bottom: -15px;
+        background-color: $blue-lagoon;
+        border-radius: 20px;
+      }
+    }
+  }
+}

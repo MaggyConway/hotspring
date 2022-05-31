@@ -1,0 +1,61 @@
+@mixin swiper_pagination {
+    // width: 100%;
+    left: 50% !important;
+    transform: translateX(-50%) translateZ(0) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    bottom: 0 !important;
+    &-bullet {
+        width: 16px !important;
+        height: 4px !important;
+        background-color: #a9a9a9 !important;
+        display: block !important;
+        cursor: pointer !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        opacity: 1 !important;
+        border-radius: 0 !important;
+        @include breakpoint(md) {
+            width: 24px;
+        }
+        @include breakpoint(xl) {
+            width: 32px;
+        }
+        &:not(:last-child) {
+            margin-right: 12px !important;
+            @include breakpoint(xl) {
+                margin-right: 14px;
+            }
+        }
+        &-active {
+            background-color: #007681 !important;
+        }
+    }
+}
+
+@mixin swiper-button {
+    width: 13px;
+    height: 21px;
+    background: url(../../images/swiper-btn-right.svg) no-repeat left center;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-50%);
+    @include breakpoint(md) {
+        width: 20px;
+        height: 32px;
+    }
+}
+
+@mixin swiper-button-prev {
+    transform: translateY(-50%) rotate(-180deg);
+    .eicon-chevron-left {
+      display: none;
+    }
+}
+
+@mixin swiper-button-next {
+    .eicon-chevron-right {
+      display: none;
+    }
+}

@@ -1,0 +1,115 @@
+.elementor-widget-section-full-width-gallery {
+  .title {
+    display: none;
+  }
+
+  .swiper-slide {
+    img {
+      object-fit: cover;
+      object-position: center top;
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide-desc {
+      padding: 16px 24px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
+      color: #424242;
+      background-color: rgba(245, 245, 245, 0.9);
+      margin-bottom: 1px;
+    }
+  }
+
+  .swiper {
+    position: relative;
+    .swiper-slide {
+      img {
+        height: 180px;
+        @include breakpoint(sm) {
+          height: 270px;
+        }
+        @include breakpoint(md) {
+          height: 384px;
+        }
+        @include breakpoint(xl) {
+          height: 530px;
+        }
+        @include breakpoint(xxl) {
+          height: 684px;
+        }
+      }
+    }
+  }
+
+  .mySwiper {
+    .swiper-slide {
+      img {
+        height: auto;
+      }
+    }
+  }
+
+  .swiper.swiper-container-thumbs {
+    .swiper-slide {
+      cursor: pointer;
+      margin-right: 1px !important;
+    }
+  }
+
+  .swiper-button {
+    &-prev {
+      transform: rotate(-180deg);
+    }
+    &-next {
+      transform: none;
+    }
+    &-prev,
+    &-next {
+      top: 40%;
+      bottom: 0;
+      //         cursor: pointer;
+      //         width: 36px;
+      //         height: 72px;
+      //         background-size: 11px 18px;
+      //         top: 90px;
+      //         background-color: #fff;
+      //         background-position: center center;
+      //         opacity: .4;
+      //         border-radius: 45px 0 0 45px;
+      //         transition: opacity .3s ease-in-out;
+
+      //         &:hover {
+      //             opacity: .8;
+      //         }
+
+      //         @include breakpoint(sm) {
+      //             top: 135px;
+      //         }
+
+      //         @include breakpoint(md) {
+      //             width: 48px;
+      //             height: 96px;
+      //             background-size: 17px 28px;
+      //             top: 192px;
+      //         }
+
+      //         @include breakpoint(xl) {
+      //             top: 265px;
+      //         }
+
+      //         @include breakpoint(xxl) {
+      //             top:342px;
+      //         }
+      //     }
+
+      //     &-prev {
+      //         left: 0;
+      //     }
+
+      //     &-next {
+      //         right: 0;
+    }
+  }
+}

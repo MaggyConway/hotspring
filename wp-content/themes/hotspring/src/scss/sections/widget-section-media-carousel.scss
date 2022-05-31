@@ -1,0 +1,136 @@
+.elementor-widget-section-media-carousel {
+  .tabs-parent {
+    margin: 0;
+  }
+
+  .media-tabs {
+    .container {
+      position: relative;
+    }
+
+    .media-tabs__header {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #a9a9a9;
+
+      @include breakpoint(md) {
+        margin-bottom: 48px;
+        border-bottom: 0;
+      }
+
+      .media-tabs__tab {
+        border-top: 1px solid $gray-169;
+
+        @include breakpoint(md) {
+          border: 0;
+          padding: 0;
+        }
+
+        > .media-tabs__link {
+          display: block;
+          padding: 16px 0;
+          font-weight: 600;
+          text-decoration: none;
+          color: $blue-lagoon;
+          position: relative;
+          cursor: pointer;
+
+          @include breakpoint(md) {
+            margin: 0 10px;
+            padding: 0;
+            padding-bottom: 5px;
+            border-top: 0;
+            border-bottom: 1px solid transparent;
+          }
+
+          &:after {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 40%;
+            background: url(../../images/chevron-down.svg) no-repeat center
+              center;
+            background-size: contain;
+            transform: rotate(180deg);
+            transition: transform 0.3s ease-out;
+            width: 14px;
+            height: 14px;
+
+            @include breakpoint(md) {
+              content: none;
+            }
+          }
+
+          &.active {
+            padding-bottom: 24px;
+            border-color: $blue-lagoon;
+
+            @include breakpoint(md) {
+              padding-bottom: 5px;
+            }
+
+            &:after {
+              transition: transform 0.3s ease-out;
+              transform: rotate(0);
+            }
+          }
+
+          &:hover:not(.active) {
+            color: $eastern-blue;
+          }
+        }
+      }
+
+      .media-tabs__content {
+        position: relative;
+        margin-bottom: 24px;
+
+        @include breakpoint(md) {
+          margin-bottom: 0;
+        }
+
+        // .swiper-slide__heading,
+        // .swiper-slide__description {
+        //   padding: 0 24px;
+        //   @include breakpoint(md) {
+        //     padding: 0;
+        //   }
+        // }
+
+        img {
+          margin-bottom: 24px;
+
+          @include breakpoint(md) {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .title {
+    margin-bottom: 24px;
+    @include breakpoint(xl) {
+      margin-bottom: 48px;
+    }
+  }
+
+  .filter-wrapper {
+    margin-bottom: 0;
+    @include breakpoint(md) {
+      margin-bottom: 40px;
+    }
+    @include breakpoint(xl) {
+      margin-bottom: 48px;
+    }
+  }
+
+  .swiper-container {
+    padding-bottom: 0;
+    @include breakpoint(md) {
+      padding-bottom: 36px;
+    }
+    @include breakpoint(xl) {
+      padding-bottom: 52px;
+    }
+  }
+}

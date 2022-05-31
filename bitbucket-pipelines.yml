@@ -1,0 +1,33 @@
+pipelines:
+  custom: # Pipelines that can only be triggered manually
+    master:
+      - step:
+          script:
+            - git push -f git@git.wpengine.com:production/hotspringredes.git HEAD:master
+            - echo "Push to prod completed"
+    staging:
+      - step:
+          script:
+            - git push -f git@git.wpengine.com:production/hotspringrdstg.git HEAD:master
+            - echo "Push to stage completed"
+    dev:
+      - step:
+          script:
+            - git push -f git@git.wpengine.com:production/hotspringrddev.git HEAD:master
+            - echo "Push to dev completed"
+  branches:
+    master:
+      - step:
+          script:
+            - git push git@git.wpengine.com:production/hotspringredes.git HEAD:master
+            - echo "Completed"
+    staging:
+      - step:
+          script:
+            - git push git@git.wpengine.com:production/hotspringrdstg.git HEAD:master
+            - echo "Completed"
+    dev:
+      - step:
+          script:
+            - git push git@git.wpengine.com:production/hotspringrddev.git HEAD:master
+            - echo "Completed"

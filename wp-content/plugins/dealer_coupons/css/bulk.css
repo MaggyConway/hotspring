@@ -1,0 +1,23 @@
+.container-progress-bar {
+  /*width:400px;*/
+  padding-bottom: 1em;
+}
+
+.bar {
+  width:100%;
+  background:#eee;
+  padding:3px;
+  border-radius:3px;
+  box-shadow:inset 0px 1px 3px rgba(0,0,0,.2);
+}
+
+.bar-fill {
+  height:20px;
+  display:block;
+  background:#3DC264;
+  width:0%;
+  border-radius:3px;
+
+  -webkit-transition:width 0.8s ease;
+  transition:width 0.8s ease;
+}

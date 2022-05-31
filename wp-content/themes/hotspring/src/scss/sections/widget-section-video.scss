@@ -1,0 +1,48 @@
+.elementor-widget-section-video {
+  .elementor-custom-embed-image-overlay {
+    box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.1);
+
+    &::before {
+      @include breakpoint(xl) {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.15);
+      }
+    }
+    &:hover {
+      @include breakpoint(xl) {
+        &::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0);
+          transition: all 0.5s;
+        }
+      }
+      .eicon-play {
+        color: #009ca6;
+      }
+    }
+  }
+
+  .section-video {
+    &__title {
+      margin-bottom: 18px;
+      margin-top: 24px;
+
+      @include breakpoint(md) {
+        margin-top: 32px;
+      }
+    }
+    &__description {
+      line-height: 22px;
+    }
+  }
+}
